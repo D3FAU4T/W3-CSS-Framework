@@ -1,0 +1,26 @@
+{
+  "name": "w3-css-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "D3FAU4T",
+  "contributors": [
+    {
+      "name": "D3FAU4T",
+      "email": "d3fau4t@gmail.com",
+      "url": "https://github.com/D3FAU4T"
+    },
+    {
+      "name": "Sanyy",
+      "url": "https://github.com/sanjana29-s"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

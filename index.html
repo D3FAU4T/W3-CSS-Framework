@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="icon" href="/Images/dd.png" type="image/png">
+    <link rel="stylesheet" href="/Styles/W3.css">
+    <!--// I need to learn this stoopid library ^^ //-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/Styles/Styles.css">
+
+    <noscript>You need to enable JavaScript in your browser for the website to function properly</noscript>
+</head>
+<body class="w3-light-gray w3-container">
+
+    <div class="w3-center">
+        <h2>D3FAU4T AND SANYY SURVEY FORM</h2>
+        <p>This form is created for learning <a href="https://www.w3schools.com/w3css">W3.CSS Framework</a>. Any information potrayed here are purely imaginary and can't be evaluated as real data.'</p>
+    </div>
+
+    <form class="w3-container information-collector" action="/register" method="post">
+
+        <div class="cards">
+            <!-- Basic Information -->
+            <div class="w3-card-4 card">
+                <div class="w3-container w3-green">
+                    <h2 class="w3-center">Basic Information</h2>
+                </div>
+
+                <div class="w3-container">
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa fa-user"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="text" placeholder="First Name" id="fname" name="fname">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa fa-user"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="text" placeholder="Last Name" id="lname" name="lname">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-solid fa-cake-candles"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="number" placeholder="Enter your age" id="age" name="age">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-regular fa-calendar"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="date" placeholder="select a date" id="dob" name="dob">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-solid fa-om"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="text" placeholder="Enter your favourite Mantra" id="mantra" name="mantra">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coding Information -->
+
+            <div class="w3-card-4 card">
+                <div class="w3-container w3-green">
+                    <h2 class="w3-center">Coding Information</h2>
+                </div>
+
+                <div class="w3-container">
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-solid fa-code"></i></div>
+                        <div class="w3-rest">
+                            <select class="w3-select" name="code-lang">
+                                <option disabled selected>Your primary coding language</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="C++">C++</option>
+                                <option value="C#">C#</option>
+                                <option value="Ruby">Ruby</option>
+                                <option value="Swift">Swift</option>
+                                <option value="Kotlin">Kotlin</option>
+                                <option value="Rust">Rust</option>
+                                <option value="Go">Go</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-solid fa-file-code"></i></div>
+                        <div class="w3-rest">
+                            <input class="w3-input" type="text" placeholder="Your preferred IDE" id="ide-preference" name="ide-preference">
+                        </div>
+                    </div>
+
+                    <div class="w3-row w3-section">
+                        <div class="w3-col icon"><i class="w3-xxlarge fa-solid fa-users-between-lines"></i></div>
+                        <div class="w3-rest">
+                            <select class="w3-select" name="experience">
+                                <option disabled selected>Your experience level</option>
+                                <option value="Beginner">Beginner</option>
+                                <option value="Student">Student</option>
+                                <option value="Hobby">Part time hobby</option>
+                                <option value="Job">Full time job</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <input class="w3-input w3-green" type="submit" placeholder="Submit" id="form-submit" />
+    </form>
+</body>
+</html>
